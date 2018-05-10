@@ -1,8 +1,10 @@
-import React from "react";
-import ReactDOM  from "react-dom";
+import React,{Component} from 'react';
+import ReactDOM from 'react-dom';
+import Layout from './components/Layout';
 
-const Index = () => {
-    return <div>Hello </div>;
-};
+export default class Index extends Component{
+  
+  }
 
-ReactDOM.render(<Index/>,document.getElementById("index"));
+
+ReactDOM.render(<Layout/>,document.getElementById('index'));
